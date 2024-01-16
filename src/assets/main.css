@@ -1,0 +1,32 @@
+@import "default.css";
+
+* {
+	@apply text-stone-200;
+}
+
+html {
+	@apply bg-stone-900;
+}
+
+html, body {
+	@apply h-full;
+}
+
+#app {
+	@apply flex flex-col h-full;
+}
+
+/* Select */
+.vs__dropdown-toggle {
+	@apply !rounded-lg !bg-stone-600 !cursor-pointer !border-none;
+}
+.vs__dropdown-toggle,
+.vs__dropdown-menu {
+	@apply !bg-stone-700;
+}
+.vs__open-indicator path {
+	@apply !fill-stone-200;
+}
+.vs__selected, .vs__search {
+	@apply !text-stone-200;
+}
